@@ -1,0 +1,8 @@
+services:
+  subtitles:
+    image: subtitles
+    container_name: subtitles
+    env_file:
+      - .env
+    build:
+      context: .
