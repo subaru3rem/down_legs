@@ -19,3 +19,18 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 
  - [Bazarr](https://www.bazarr.media/)
  - [Animetosho](https://animetosho.org/)
+
+
+## Instalação
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/subaru3rem/down_legs.git
+```
+
+Preencha as variaveis com os dados do seu bazarr e dps inicie o container
+
+```bash
+  docker compose up --build -d
+```
